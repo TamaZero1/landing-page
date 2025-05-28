@@ -10,13 +10,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
+    justify-content: space-between;
+    background-color: #b33c55;
     color: #F9F4F8;
-    padding: 20px;
+    padding: 20px 26% 0 26%;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 900;
+    gap: 50px;
 }
 
 ul {
@@ -34,7 +36,7 @@ ul {
     align-items: center;
     gap: 100px;
     padding: 100px;
-    background-color: #1f2937;
+    background-color: #b33c55;
 }
 .hero-title{
     font-size: 48px;
@@ -43,8 +45,8 @@ ul {
     margin-bottom: 0;
 }
 button {
-    background-color: #3882F6;
-    color: #F9F4F8;
+    background-color: #01b0f5;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
@@ -68,13 +70,17 @@ a {
     gap: 50px;
 }
 
+
 .info-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     max-width: 150px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .info-container {
@@ -99,7 +105,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3882F6;
+  background-color: #d43f8a;
   color: #F9F4F8;
   border-radius: 10px;
   margin: 50px auto;
@@ -120,11 +126,11 @@ a {
     align-items: center;
     background-color: #1f2937;
     color: #F9F4F8;
-    padding: 20px;
+    padding: 16px;
 }
 
 .call-to-action-right {
-  background-color: #3882F6;
+  background-color: #f8447a;
   color: white;
   border: 2px solid white;
   padding: 10px 20px;
@@ -138,6 +144,8 @@ a {
 .quote-author {
     font-size: 24px;
     font-weight: bold;
+    justify-self: flex-end;
+    color: #f35d5d;
     align-self: flex-end;
     font-style: italic;
 }
@@ -147,4 +155,32 @@ a {
     justify-content: center;
     font-size: 36px;
     font-weight: 300;
+}
+
+.info-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-image {
+    border-radius: 10px;
+    border: 4px solid #d1496b;
+}
+
+.hero-text {
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-image {
+    border-radius: 10px;
+    border: 4px solid #f5f851;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
 }
