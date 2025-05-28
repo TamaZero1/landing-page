@@ -116,10 +116,13 @@ button {
 }
 
 /* QUOTE SECTION */
-.quote {
+.quote-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quote {
     align-items: center;
     background-color: #E5E7EB;
     padding: 100px;
