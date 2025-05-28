@@ -1,4 +1,4 @@
-# Landing Page Project
+# Landing Page Project   (IN PROGRESS)
 
 ## Description  
 This project is a landing page created as part of [The Odin Project](https://www.theodinproject.com/) Foundations course. The goal was to build a complete web page based on a provided design, focusing on HTML and CSS fundamentals such as layout, typography, colors, and structure.
