@@ -8,6 +8,32 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9F4F8;
+    font-size: 18px;
+}
+
+button {
+    background-color: #01b0f5;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* HEADER */
 .header {
     display: flex;
     align-items: center;
@@ -21,15 +47,8 @@ body {
     gap: 50px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-.hero{
+/* HERO SECTION */
+.hero {
     color: #ffffff;
     display: flex;    
     justify-content: center;
@@ -38,29 +57,26 @@ ul {
     padding: 100px;
     background-color: #b33c55;
 }
-.hero-title{
+
+.hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9F4F8;
     margin-bottom: 0;
 }
-button {
-    background-color: #01b0f5;
-    color: #000000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+
+.hero-text {
+    max-width: 500px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 300;
 }
 
-a {
-    text-decoration: none;
-    color: #F9F4F8;
-    font-size: 18px;
+.hero-image {
+    border-radius: 10px;
+    border: 4px solid #f5f851;
 }
 
+/* INFO SECTION */
 .info {
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +86,17 @@ a {
     gap: 50px;
 }
 
+.info-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
 
 .info-card {
     display: flex;
@@ -83,12 +110,12 @@ a {
     text-align: center;
 }
 
-.info-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+.info-image {
+    border-radius: 10px;
+    border: 4px solid #d1496b;
 }
 
+/* QUOTE SECTION */
 .quote {
     display: flex;
     flex-direction: column;
@@ -101,44 +128,9 @@ a {
     font-weight: 300;
 }
 
-.call-to-action {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #d43f8a;
-  color: #F9F4F8;
-  border-radius: 10px;
-  margin: 50px auto;
-  padding: 50px;
-  gap: 50px;
-}
-
-.call-to-action-left {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: italic;
-}
-
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1f2937;
-    color: #F9F4F8;
-    padding: 16px;
-}
-
-.call-to-action-right {
-  background-color: #f8447a;
-  color: white;
-  border: 2px solid white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
 }
 
 .quote-author {
@@ -150,33 +142,45 @@ a {
     font-style: italic;
 }
 
-.quote-text {
+/* CALL TO ACTION */
+.call-to-action {
     display: flex;
     justify-content: center;
-    font-size: 36px;
-    font-weight: 300;
-}
-
-.info-title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #1f2937;
-}
-
-.info-image {
+    align-items: center;
+    background-color: #d43f8a;
+    color: #F9F4F8;
     border-radius: 10px;
-    border: 4px solid #d1496b;
+    margin: 50px auto;
+    padding: 50px;
+    gap: 50px;
 }
 
-.hero-text {
-    max-width: 500px;
+.call-to-action-left {
     font-size: 18px;
     font-weight: 300;
+    font-style: italic;
 }
 
-.hero-image {
-    border-radius: 10px;
-    border: 4px solid #f5f851;
+.call-to-action-right {
+    background-color: #f8447a;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9F4F8;
+    padding: 16px;
 }
 
 .footer-text {
